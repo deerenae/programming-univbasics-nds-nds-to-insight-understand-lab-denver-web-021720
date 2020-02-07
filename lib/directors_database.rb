@@ -11,8 +11,9 @@ end
 row_index = 0 
   while row_index < 1 do 
   
-      puts "#{directors_database[row_index][:movies][:title]}"
-    
+   puts "#{directors_database[row_index][:movies][:title]}"
+   binding.pry 
+   
   row_index += 1   
   
   end  
