@@ -12,12 +12,10 @@ row_index = 0
   while row_index < 1 do 
   
       puts "#{directors_database[row_index][:movies]}"
-      
-    end 
     
   row_index += 1   
   
-end  
+  end  
 
 #pp directors_database
 
