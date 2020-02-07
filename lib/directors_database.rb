@@ -13,11 +13,8 @@ row_index = 0
     
     puts " #{directors_database[row_index]}"
     
-    column_index = 0 
     while column_index < 1 do
-      puts "#{directors_database[row_index][:movies}"
-      
-      column_index +=1
+      puts "#{directors_database[row_index][:movies]}"
       
     end 
     
